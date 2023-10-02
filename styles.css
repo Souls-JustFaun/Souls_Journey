@@ -1,0 +1,198 @@
+/* Estilos CSS específicos para esta página */
+body {
+  background-image: url("assets/1970.jpg");
+  background-repeat: repeat;
+
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 40px 0;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+.project-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social_media {
+  width: 120px;
+  height: 120px;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+.social_media:hover {
+  transform: scale(1.05);
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  text-align: center;
+}
+p {
+  text-align: center;
+  justify-content: center;
+}
+.carousel-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Distribuye los proyectos uniformemente en el contenedor */
+}
+.portfolio-item {
+  flex: 0 0 calc(33.33% - 20px); /* Ancho de 33.33% con espacio entre los proyectos */
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+.portfolio-item:nth-child(3n) {
+  margin-right: 0; /* Elimina el margen derecho del tercer elemento de cada fila */
+}
+.portfolio-item:hover {
+  transform: scale(1.05);
+}
+.project-description {
+  font-size: 18px;
+  margin-top: 10px;
+}
+.project-image {
+  max-width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  padding-bottom: 20px;
+}
+
+/* Estilos CSS para la sección de testimonios */
+.testimonials {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-me-logos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonial-image {
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.testimonial-text {
+  font-size: 16px;
+  margin: 0;
+}
+
+.testimonial-author {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Estilos CSS para la sección "Sobre Mí" */
+.about-me {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.about-me-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-me-image {
+  width: 500px;
+  height: 500px;
+  border: blue;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 5px;
+  /* max-width: 200px;
+  max-height: 200px;
+  border-radius: 50%;
+  margin-bottom: 10px; */
+}
+
+.about-me-description {
+  font-size: 16px;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Estilos CSS para la sección de "Contacto" */
+.contact {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.contact-info {
+  text-align: center;
+}
+
+.contact-info p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info ul li {
+  margin-bottom: 10px;
+}
+
+.contact-info ul li a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.contact-info ul li a:hover {
+  text-decoration: underline;
+}
